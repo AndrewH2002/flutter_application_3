@@ -47,7 +47,7 @@ class _FirstPageState extends State<FirstPage> {
               max: 1.0,
             ),
             SizedBox(height: 20),
-            // Dog Image with error handlingsls
+            // Dog Image with error handlings
             Image.network(
               'https://images.dog.ceo/breeds/labrador/n02099712_7418.jpg',
               width: 200,
