@@ -47,6 +47,14 @@ class _FirstPageState extends State<FirstPage> {
               max: 1.0,
             ),
             SizedBox(height: 20),
+            // Dog Image
+            Image.network(
+              'https://images.dog.ceo/breeds/labrador/n02099712_7418.jpg',
+              width: 200,
+              height: 200,
+              fit: BoxFit.cover,
+            ),
+            SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -89,6 +97,14 @@ class _SecondPageState extends State<SecondPage> {
                   _switchValue = newValue;
                 });
               },
+            ),
+            SizedBox(height: 20),
+            // Dog Image
+            Image.network(
+              'https://images.dog.ceo/breeds/pug/n02110958_14676.jpg',
+              width: 200,
+              height: 200,
+              fit: BoxFit.cover,
             ),
             SizedBox(height: 20),
             ElevatedButton(
